@@ -61,7 +61,7 @@ public:
     void clear()
     {
         addingPos = buffer->begin();
-        gettingPos = buffer->end();
+        gettingPos = buffer->begin();
         elementCount = 0;
     }
 };
